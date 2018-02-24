@@ -17,10 +17,11 @@ h1 {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	position: absolute;
 	width: 320px;
+	height: 70px;
 	float: left;
 	z-index: 2;
 	border-color: #cccccc;
-	background-color: #4aaaa5;
+	background-color: black;
 	color: white;
 	font-weight: bold;
 	padding: 10px;
@@ -40,7 +41,7 @@ h2:after {
 h3 {
 
 	font-family: 'Georgia', Times, Times New Roman, serif;
-	color: #4aaaa5;
+	color: black;
 	text-align: center;
 	font-weight: bold;
 }
@@ -56,7 +57,7 @@ h3:after {
 h2, h4, h6, h5 {
 
 	font-family: 'Georgia', Times, Times New Roman, serif;
-	color: #4aaaa5;
+	color: black;
 	font-weight: bold;
 	padding: 10px;
 	padding-bottom: 20px;
@@ -72,9 +73,8 @@ h2, h4, h6, h5 {
 .overallContent {
 
 	width: 960px;
-	margin-left: 25%;
-	margin-right: 25%;
-	margin-top: 10%;
+	margin-left: 15%;
+	margin-top: 5%;
 	margin-bottom: 10%;
 
 }
@@ -128,7 +128,7 @@ h2, h4, h6, h5 {
 	width: 100%;
 	z-index: 2;
 	color: white;
-	background-color: #4aaaa5;
+	background-color: black;
 	display: table;
 }
 
@@ -160,7 +160,7 @@ h2, h4, h6, h5 {
 
 .emptyBox, .push {
 	height: 10px;
-	background-color: #4aaaa5;
+	background-color: black;
 	width: 100%;
 }
 
