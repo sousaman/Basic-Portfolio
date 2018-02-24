@@ -10,12 +10,5 @@ $(document).ready(function() {
         window.open('mailto:' + email +'?subject=' + subject + '&body=' + body);
         event.preventDefault();
       });
-
-    /* $(".submit").on("click", function() {
-        subject = "Portfolio - " + $("#name").val();
-        body = $("#message").val();
-        console.log('mailto:' + email +'?subject=' + subject + '&body=' + body);
-        window.open('mailto:' + email +'?subject=' + subject + '&body=' + body);
-    }) */
 })
 
